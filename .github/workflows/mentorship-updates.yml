@@ -1,11 +1,12 @@
-name: Building Hyperledger Updates
+name: Building Mentorship Updates
 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+  workflow_dispatch:
+  
 jobs:
 
   build:
